@@ -1,0 +1,14 @@
+void setup() {
+    size(500,500);
+}
+
+void draw() {
+    // goal: show the path of the ball as it moves
+    // background(255);
+    // goal: randomize the color during runtime
+    fill(random(255),random(255),random(255));
+    // goal: allow the ellipse to move with the mouse
+    // goal: randomize the size of the ball
+     ellipse(mouseX,mouseY,random(50),random(50));
+    
+}
